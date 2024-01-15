@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* Primary color */
+/* rgb(1, 75, 160) */
+
+/* General Styles */
+
+body{
+    margin: 0rem 8.44rem;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    color: #131318;
+}
+
+.txt-prim{
+    color: rgb(1, 75, 160);
+}
+
+.font125{
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
+.font15{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.font25{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+/* Header */
+header{
+    display: flex;
+    margin-top: 3.25rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 0rem;
+}
+
+.logo-name{
+    display: flex;
+    align-items: center;
+}
+
+.logo-name > img{
+    margin-right: 1.04rem;
+    max-height: 5rem;
+}
+
+.nav-bar ul{
+    display: flex;
+    align-items: center;
+    gap: 2.75rem;
+}
+
+.nav-bar a, .nav-bar li{
+    list-style: none;
+    text-decoration: none;
+    color: #424247;
+}
