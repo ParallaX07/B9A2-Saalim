@@ -10,6 +10,10 @@
 
 /* General Styles */
 
+.txt-light-grey{
+    color: #5A5A5D;
+}
+
 body{
     margin: 0rem 8.44rem;
     font-family: 'Mulish', sans-serif;
@@ -180,3 +184,30 @@ header{
 }
 
 /* Popular tours section */
+.popular-tours{
+    margin-top: 3.06rem;
+    display: flex;
+    align-items: center;
+    gap: 3.31rem;
+}
+
+.popular-tours p, .popular-tours h2, .popular-tours ul{
+    margin-bottom: 1.5rem;
+}
+
+.tours-body{
+    line-height: 1.625rem
+}
+
+.tours-body ul{
+    padding-left: 1.5rem;
+}
+
+.tours-body ul li::marker {
+    color: #5A5A5D;
+}
+
+.tours-img{
+    height: 100%;
+    border-radius: 1rem;
+} 

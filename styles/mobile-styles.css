@@ -21,7 +21,8 @@
 
     #menu-toggle:checked ~ .nav-bar,
     #menu-toggle:checked ~ .nav-bar ul,
-    .search-bar{
+    .search-bar,
+    .popular-tours{
         flex-direction: column;
     }
 
@@ -72,5 +73,13 @@
 
     .search-bar > *, .search-bar > input[type="text"] { 
         width: 100%;
+    }
+
+    .popular-tours{
+        gap: 1.5rem;
+    }
+
+    .tours-img > img{
+        max-width: 100%;
     }
 }
