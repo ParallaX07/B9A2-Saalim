@@ -22,12 +22,14 @@
     #menu-toggle:checked ~ .nav-bar,
     #menu-toggle:checked ~ .nav-bar ul,
     .search-bar,
-    .popular-tours{
+    .popular-tours,
+    .cards-2{
         flex-direction: column;
     }
 
     #menu-toggle:checked ~ .nav-bar {
         display: flex;
+        flex-direction: column;     
         position: absolute;
         top: 60px; 
         width: 100%;
@@ -47,6 +49,7 @@
     }
 
     .explore{
+        max-width: 100%;
         height: fit-content;
     }
 
@@ -56,30 +59,59 @@
 
     .explore-content h1{
         font-size: 1.75rem;
-        width: 25rem;
+        width: 90%;
     }
 
     .explore-content p{
         margin-top: 0.5rem;
-        width: 25rem;
+        width: 90%;
         font-size: 0.9rem;
     }
 
     .search-bar {
         margin-bottom: 2rem;
         gap: 1rem;
-        width: 25rem;
+        width: 100%;
     }
 
-    .search-bar > *, .search-bar > input[type="text"] { 
+    .search-bar > *, .search-bar > input[type="text"]{ 
         width: 100%;
     }
 
     .popular-tours{
         gap: 1.5rem;
+        width: 100%;
     }
 
     .tours-img > img{
         max-width: 100%;
+    }
+
+    .choose-us{
+        margin-top: 1.5rem;
+        max-width: 100%;
+    }
+
+    .body-txt, .body-txt > p{
+        margin: 0rem;
+        max-width: 100%;
+    }
+
+    .cards-2{
+        margin-top: 1rem;
+        gap: 1rem;
+    }
+
+    .cards{
+        width: 100%;
+        height: fit-content;
+    }
+
+    .cards p{
+        width: 100%;
+    }
+
+    .c3{
+        margin-top: 1rem;
     }
 }

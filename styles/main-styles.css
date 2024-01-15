@@ -11,7 +11,7 @@
 /* General Styles */
 
 .txt-light-grey{
-    color: #5A5A5D;
+    color: rgba(19, 19, 24, 0.70);
 }
 
 body{
@@ -211,3 +211,55 @@ header{
     height: 100%;
     border-radius: 1rem;
 } 
+
+/* why choose us section styles */
+.choose-us{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6.25rem;
+}
+
+.choose-us > .body-txt > p{
+    margin: 1.5rem 0 3rem;
+    width: 41rem;
+}
+
+.cards{
+    width: 35.8125rem;
+    height: 17.75rem;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: left;
+}
+
+.cards h3{
+    margin-top: 2rem;
+}
+.cards p{
+    margin-top: 1rem;
+    width: 30rem;
+}
+
+.cards-2{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.c1{
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.c2{
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.c3{
+    margin-top: 1.5rem;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
