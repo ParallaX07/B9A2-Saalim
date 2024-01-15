@@ -20,12 +20,14 @@
 </head>
 
 <body>
+    <!-- header section -->
     <header>
         <div class="logo-name" font25>
             <img src="./Images/icon.png" alt="ParallaX Trvels logo">
             <h1>ParallaX <span class="txt-prim">Trvels</span></h1>
         </div>
-        
+
+        <!-- hamburger icon selector -->
         <input type="checkbox" id="menu-toggle" />
         <label for="menu-toggle" class="hamburger-menu">
             <div></div>
@@ -33,6 +35,7 @@
             <div></div>
         </label>
 
+        <!-- nav bar -->
         <div class="nav-bar">
             <ul class="font125 menu">
                 <li><a href="#"><span class="txt-prim">Home</span></a></li>
@@ -43,6 +46,47 @@
             </ul>
         </div>
     </header>
+
+    <!-- explore section -->
+    <section class="explore">
+        <div class="explore-content">
+            <h1>Explore Your Travel Destinations</h1>
+            <p>Where will your next adventure take you? Dive into the unknown and ignite your wanderlust with our
+                curated collection of diverse destinations. From sun-kissed beaches to snow-capped peaks, bustling
+                metropolises to serene countrysides, the world awaits your footprints. Let's explore!</p>
+                <!-- search option and search bar -->
+            <div class="search-bar">
+                <input type="text" class="field" placeholder="Where to">
+                <div class="input-container">
+                    <input type="text" class="field" placeholder="When">
+                    <!-- dropdown icon -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M19.5 8.25L12 15.75L4.5 8.25" stroke="#131318" stroke-opacity="0.7" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <div class="input-container">
+                    <input type="text" class="field" placeholder="Select Type">
+                    <!-- dropdown icon -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M19.5 8.25L12 15.75L4.5 8.25" stroke="#131318" stroke-opacity="0.7" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <button class="btn btn-primary">
+                    <!-- search icon -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path
+                            d="M21 21L15.803 15.803M15.803 15.803C17.2096 14.3965 17.9998 12.4887 17.9998 10.4995C17.9998 8.51035 17.2096 6.60262 15.803 5.19605C14.3964 3.78947 12.4887 2.99927 10.4995 2.99927C8.51031 2.99927 6.60258 3.78947 5.196 5.19605C3.78943 6.60262 2.99922 8.51035 2.99922 10.4995C2.99922 12.4887 3.78943 14.3965 5.196 15.803C6.60258 17.2096 8.51031 17.9998 10.4995 17.9998C12.4887 17.9998 14.3964 17.2096 15.803 15.803Z"
+                            stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    Find now
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- popular tours -->
 </body>
 
 </html>
