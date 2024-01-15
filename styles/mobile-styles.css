@@ -1,5 +1,41 @@
 @media screen and (max-width: 600px) {
+    :root{
+        font-size: 80%;
+    }
     body{
         margin: 0rem 1.25rem;
+    }
+
+    .nav-bar {
+        display: none;
+    }
+
+    .logo-name img{
+        max-width: 3rem;
+    }
+
+    .hamburger-menu {
+        display: flex;
+        
+    }
+
+    #menu-toggle:checked ~ .nav-bar {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 60px; 
+        width: 100%;
+    }
+
+    #menu-toggle:checked ~ .nav-bar ul {
+        margin-top: 3rem;
+        flex-direction: column;
+        gap: .25rem;
+    }
+
+    #menu-toggle:checked ~ .nav-bar ul li {
+        text-align: center; 
+        width: 100%;
+        padding: 10px 0; 
     }
 }
