@@ -23,7 +23,8 @@
     #menu-toggle:checked ~ .nav-bar ul,
     .search-bar,
     .popular-tours,
-    .cards-2{
+    .cards-2,
+    .newsletter{
         flex-direction: column;
     }
 
@@ -113,5 +114,29 @@
 
     .c3{
         margin-top: 1rem;
+    }
+
+    .newsletter{
+        margin-top: 1rem;
+        gap: 1rem;
+        width: 100%;
+    }
+
+    .subscription{
+        width: 100%;
+        padding: 1.5rem;
+        height: fit-content;
+    }
+
+    .subscription p{
+        margin-top: 0.5rem;
+    }
+
+    .subscription hr{
+        margin: 1rem 0;
+    }
+
+    .newsletter > .images{
+        width: 100%;
     }
 }
