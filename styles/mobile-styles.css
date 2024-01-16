@@ -2,8 +2,24 @@
     :root{
         font-size: 80%;
     }
-    header, .explore, .popular-tours, .choose-us, .newsletter{
+
+    header, .explore, .popular-tours, .choose-us, .newsletter, .simply-lost{
         margin: 0rem 1.25rem;
+    }
+
+    .font125{
+        font-size: 1.25rem;
+        font-weight: 800;
+    }
+    
+    .font15{
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
+    
+    .font25{
+        font-size: 2rem;
+        font-weight: 800;
     }
 
     .nav-bar {
@@ -24,7 +40,8 @@
     .search-bar,
     .popular-tours,
     .cards-2,
-    .newsletter{
+    .newsletter,
+    .simply-lost{
         flex-direction: column;
     }
 
@@ -115,6 +132,46 @@
 
     .c3{
         margin-top: 1rem;
+    }
+
+    .simply-lost{
+        margin-top: 1.5rem;
+        font-size: 80%;
+        max-width: 100%;
+        gap: 1.5rem;
+    }
+
+    .simply-lost > .text-section >  *{
+        margin-bottom: 1rem;
+    }
+    
+    .simply-lost ul{
+        margin-left: 1rem;
+    }
+    .simply-lost ul li::marker {
+        color: #5A5A5D;
+    }
+    
+    .simply-lost ul li{
+        margin-bottom: 1rem;
+    
+    }
+
+    .simply-lost > .text-section > .txt{
+        width: 100%;
+    }
+
+    .simply-lost h4{
+        padding: 4.38rem 1.8rem;
+        text-align: center;
+        color: white;
+        font-weight: 700;
+    }
+
+    .simply-lost > .video-thumbnail, .simply-lost > .video-thumbnail > img{
+        min-width: none;    
+        max-width: 100%;
+        max-height: fit-content;
     }
 
     .newsletter{

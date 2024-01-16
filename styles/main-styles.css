@@ -11,7 +11,7 @@
 /* General Styles */
 
 .txt-light-grey{
-    color: rgba(19, 19, 24, 0.70);
+    color: #5A5A5D;;
 }
 
 body{
@@ -270,6 +270,53 @@ header{
     margin-top: 1.5rem;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
+}
+
+/* simply get lost styles */
+.simply-lost{
+    margin: 0rem 8.44rem;
+    margin-top: 7.06rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.75rem;
+}
+
+.simply-lost > .text-section >  *{
+    margin-bottom: 1.5rem;
+}
+
+.simply-lost > .text-section > .txt{
+    width: 33rem;
+}
+
+.simply-lost h4{
+    padding: 11rem 8rem;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+}
+
+.simply-lost ul{
+    font-weight: 700;
+    margin-left: 1.25rem;
+}
+.simply-lost ul li::marker {
+    color: #5A5A5D;
+}
+
+.simply-lost ul li{
+    margin-bottom: 1rem;
+
+}
+
+.video-thumbnail{
+    background-image: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%), url("../Images/Group40089.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 38.125rem;
+    border-radius: 1rem;
 }
 
 /* newsletter section */
