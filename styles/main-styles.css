@@ -272,6 +272,67 @@ header{
     background: rgba(233, 68, 68, 0.05);
 }
 
+/* Deals & discounts section */
+.deals-discounts{
+    margin: 0rem 8.44rem;
+    margin-top: 6.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.deals-discounts .heading{
+    text-align: center;
+}
+
+.deals-discounts .heading > *{
+    margin-bottom: 1.5rem;
+
+}
+
+.deals-discounts .inner-card{
+    display: flex;
+    flex-direction: column;
+    width: 35.8125rem;
+    height: 22rem;
+    padding: 2rem;
+    text-align: left;
+    border-radius: 1rem;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+
+.outer-card{
+    border-radius: 1rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: fit-content;
+}
+
+.deals-discounts .div1{
+    background-image: url("../Images/Group39.png");
+}
+
+.deals-discounts .div2{
+    background-image: url("../Images/Group39.png");
+}
+
+.deals-discounts .div3{
+    background-image: url("../Images/Group39.png");
+}
+
+.c4, .c6{
+    margin: 3.5rem 3.5rem 3.5em 33.44rem;
+}
+
+.c5{
+    margin: 3.5rem 33.44rem 3.5em 3.5rem;
+
+}
+
 /* simply get lost styles */
 .simply-lost{
     margin: 0rem 8.44rem;
@@ -290,11 +351,15 @@ header{
     width: 33rem;
 }
 
+.simply-lost h2{
+    line-height: 3.75rem;
+}
+
 .simply-lost h4{
     padding: 11rem 8rem;
     text-align: center;
     color: white;
-    font-weight: 700;
+    font-weight: 700;;
 }
 
 .simply-lost ul{
