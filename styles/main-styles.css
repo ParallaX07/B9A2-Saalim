@@ -15,11 +15,14 @@
 }
 
 body{
-    margin: 0rem 8.44rem;
     font-family: 'Mulish', sans-serif;
     font-weight: 400;
     color: #131318;
 }
+
+/* body{
+    margin: 0rem 8.44rem;
+} */
 
 .txt-prim{
     color: rgb(1, 75, 160);
@@ -42,6 +45,7 @@ body{
 
 /* Header */
 header{
+    margin: 0rem 8.44rem;
     display: flex;
     margin-top: 3.25rem;
     justify-content: space-between;
@@ -101,6 +105,7 @@ header{
 
 /* Explore section */
 .explore{
+    margin: 0rem 8.44rem;
     margin-top: 3.06rem;
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../Images/Group13.png");
     background-repeat: no-repeat;
@@ -185,6 +190,7 @@ header{
 
 /* Popular tours section */
 .popular-tours{
+    margin: 0rem 8.44rem;
     margin-top: 3.06rem;
     display: flex;
     align-items: center;
@@ -214,6 +220,7 @@ header{
 
 /* why choose us section styles */
 .choose-us{
+    margin: 0rem 8.44rem;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -267,6 +274,7 @@ header{
 
 /* newsletter section */
 .newsletter{
+    margin: 0rem 8.44rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -288,7 +296,7 @@ header{
     margin-top: 1.5rem;
 }
 
-.subscription hr{
+hr{
     margin: 1.5rem 0;
     border: 1px solid rgba(19, 19, 24, 0.10);;
 }
@@ -344,4 +352,15 @@ header{
 .sale >h4{
     font-size: 1.25rem;
     font-weight: 400;
+}
+
+/* footer section */
+footer{
+    margin-top: 6.25rem;
+    background: rgba(19, 19, 24, 0.05);
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

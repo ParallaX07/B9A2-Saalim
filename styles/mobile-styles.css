@@ -2,7 +2,7 @@
     :root{
         font-size: 80%;
     }
-    body{
+    header, .explore, .popular-tours, .choose-us, .newsletter{
         margin: 0rem 1.25rem;
     }
 
@@ -50,6 +50,7 @@
     }
 
     .explore{
+        margin-top: 1.11rem;
         max-width: 100%;
         height: fit-content;
     }
@@ -72,7 +73,7 @@
     .search-bar {
         margin-bottom: 2rem;
         gap: 1rem;
-        width: 100%;
+        width: 90%;
     }
 
     .search-bar > *, .search-bar > input[type="text"]{ 
@@ -80,8 +81,9 @@
     }
 
     .popular-tours{
+        margin-top: 1.5rem;
         gap: 1.5rem;
-        width: 100%;
+        max-width: 100%;
     }
 
     .tours-img > img{
@@ -94,7 +96,6 @@
     }
 
     .body-txt, .body-txt > p{
-        margin: 0;
         max-width: 100%;
     }
 
@@ -119,7 +120,7 @@
     .newsletter{
         margin-top: 1rem;
         gap: 1rem;
-        width: 100%;
+        max-width: 100%;
     }
 
     .subscription{
@@ -132,11 +133,17 @@
         margin-top: 0.5rem;
     }
 
-    .subscription hr{
+    hr{
         margin: 1rem 0;
     }
 
     .newsletter > .images{
-        width: 100%;
+        max-width: 100%;
     }
+
+    footer{
+    
+    }
+
+    
 }
