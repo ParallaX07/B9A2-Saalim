@@ -3,8 +3,12 @@
         font-size: 80%;
     }
 
-    header, .explore, .popular-tours, .choose-us, .newsletter, .simply-lost, .deals-discounts{
+    header, .explore, .popular-tours, .choose-us, .newsletter, .simply-lost, .deals-discounts, .destinations{
         margin: 0rem 1.25rem;
+    }
+
+    header{
+        margin-top: 1.2rem;
     }
 
     .font125{
@@ -105,6 +109,29 @@
 
     .tours-img > img{
         max-width: 100%;
+    }
+
+    .destinations{
+        margin-top: 1.5rem;
+    }
+
+    .img-container {
+        grid-template-columns: 1fr; /* Makes the grid into a single column */
+        grid-template-rows: 1fr; /* Auto size rows based on content */
+        grid-template-areas: 
+            "img1"
+            "img2"
+            "img3"
+            "img4"
+            "img5"
+            "img6"
+            "img7";
+        gap: 1rem;
+        width: 100%;
+    }
+
+    .img-container > * {
+        padding: 4.75rem 7.5rem;
     }
 
     .choose-us{
