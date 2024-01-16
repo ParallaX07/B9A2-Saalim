@@ -142,8 +142,17 @@
     }
 
     footer{
-    
+        margin-top: 1.45rem;
+        padding: 2rem 2.75rem;
     }
 
+    footer > p{
+        margin-top: 1.03rem;
+    }
+
+    footer hr{
+        margin: 1.25rem 0 0.5rem 0;
+        max-width: 100%;
+    }
     
 }

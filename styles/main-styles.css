@@ -298,7 +298,7 @@ header{
 
 hr{
     margin: 1.5rem 0;
-    border: 1px solid rgba(19, 19, 24, 0.10);;
+    border: 1px solid rgba(19, 19, 24, 0.10);
 }
 
 .subscription > .field{
@@ -357,10 +357,31 @@ hr{
 /* footer section */
 footer{
     margin-top: 6.25rem;
+    padding: 6.88rem 21rem;
     background: rgba(19, 19, 24, 0.05);
     height: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+}
+
+footer > p{
+    margin-top: 0.94rem;
+}
+
+footer > .socials{
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+footer > .socials img{
+    height: 1.5rem;
+}
+
+footer hr{
+    margin: 3rem 0 1.5rem 0;
+    width: 150%;
 }
