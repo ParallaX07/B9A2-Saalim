@@ -310,27 +310,40 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     height: fit-content;
+    background-position: center center;
 }
 
 .deals-discounts .div1{
-    background-image: url("../Images/Group39.png");
+    background-image: url("../Images/machupichu.jpeg");
 }
 
 .deals-discounts .div2{
-    background-image: url("../Images/Group39.png");
+    background-image: url("../Images/greece.jpg");
 }
 
 .deals-discounts .div3{
-    background-image: url("../Images/Group39.png");
+    background-image: url("../Images/morocco.jpg");
 }
 
 .c4, .c6{
-    margin: 3.5rem 3.5rem 3.5em 33.44rem;
+    margin: 3rem 3rem 3rem 33rem;
 }
 
 .c5{
-    margin: 3.5rem 33.44rem 3.5em 3.5rem;
+    margin: 3rem 33rem 3rem 3rem;
 
+}
+
+.deals-discounts .details{
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.deals-discounts .details > * {
+    display: flex;
+    align-items: center;
 }
 
 /* simply get lost styles */

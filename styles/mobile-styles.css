@@ -145,6 +145,7 @@
 
     .deals-discounts .inner-card{
         max-width: 90%;
+        padding: 1.5rem;
         height: fit-content;
         margin: 11.4rem 1.5rem 1.5rem 1.5rem;
     }
@@ -153,9 +154,6 @@
         width: 100%;
     }
 
-    /* .c4, .c5, .c6{
-        margin: 11.4rem 1.5rem 1.5em 1.44rem;
-    } */
 
     .simply-lost{
         margin-top: 1.5rem;
